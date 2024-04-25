@@ -1,0 +1,34 @@
+@layer component {
+    .input {
+        border: 1px solid var(--light-border-color);
+        width: 100%;
+        display: block;
+        padding: 13px;
+        border-radius: 3px;
+        margin: 0; /* fixes iOS bug */
+    }
+
+    .input-search {
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608531/learnhtmlcss/my-bank/magnifier.svg");
+        background-position: 5px center;
+        background-repeat: no-repeat;
+        padding-left: 35px;
+        border-radius: 10px;
+    }
+
+    .form-line {
+        margin-bottom: 24px;
+    }
+
+    label {
+        margin-bottom: 14px;
+        display: inline-block;
+        color: var(--light-text-color);
+        font-size: 0.875rem;
+    }
+
+    .form-buttons {
+        display: grid;
+        gap: 15px;
+    }
+}
