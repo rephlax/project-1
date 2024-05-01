@@ -9,6 +9,11 @@
             box-sizing: border-box;
         }
 
+        html {
+            background-color: #008288;
+            color: white;
+        }
+
         body {
             font-family: system-ui;
             margin: 0;
@@ -17,14 +22,34 @@
         input, textarea, button, select {
             font: inherit;
         }
+
+        #splash {
+            height: 100dvh;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        h1 {
+            font-weight: normal;
+            font-size: 0.75rem;
+            position: fixed;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <main>
-        <a href="onboarding.html"><img src="assets/logo.png" width="250px" height="250px" alt="logo"></a>
-        <h1>
-            World's Largest and Most Trusted Bank
-        </h1>
+        <div id="splash">
+        <a href="onboarding.html">
+            <img src="assets/logo.png" width="250" height="250" alt="MyBank logo">
+        </a>
+        </div>
+        <h1>World's Largest and Most Trusted Bank</h1>
     </main>
 </body>
 </html>
