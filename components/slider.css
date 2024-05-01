@@ -1,0 +1,18 @@
+@layer component {
+    #slider {
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+#slider .slide{
+    scroll-snap-align: start;
+}
+
+@media (max-width: 37.5rem) {
+    #slider .slide{
+        scroll-snap-stop: always;
+    }
+}
+}
