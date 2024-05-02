@@ -1,0 +1,9 @@
+@layer component {
+    #layout-page-overlay {
+        background-color: white;
+        margin-top: -16px;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        padding-top: 10px;
+    }
+}
