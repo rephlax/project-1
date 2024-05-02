@@ -1,0 +1,15 @@
+@layer page {
+    .recover-password {
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608531/learnhtmlcss/my-bank/lock.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .flag-us {
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608529/learnhtmlcss/my-bank/flag-us.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

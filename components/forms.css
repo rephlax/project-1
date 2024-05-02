@@ -8,6 +8,23 @@
         margin: 0; /* fixes iOS bug */
     }
 
+    .input-fixed-icon {
+        display: flex;
+    }
+
+    .input-fixed-left {
+        padding: 20px;
+        border: 1px solid var(--light-border-color);
+        border-right: 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .input-fixed-left + .input {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
     .input-search {
         background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608531/learnhtmlcss/my-bank/magnifier.svg");
         background-position: 5px center;
@@ -24,7 +41,7 @@
         margin-bottom: 14px;
         display: inline-block;
         color: var(--light-text-color);
-        font-size: 0.875rem;
+        font-size: 0.87rem;
     }
 
     .form-buttons {
