@@ -1,0 +1,50 @@
+@layer component {
+    .actions-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+        padding-top: 24px;
+    }
+
+    .action {
+        display: flex;
+        place-items: center;
+        padding: 23px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 1px 1px rgba(0 0 0 / 5%);
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: background-color 200ms, translate 200ms;
+    }
+
+    .action:hover {
+        background-color: rgba(0, 0, 0, 0.08);
+    }
+    .action:active {
+        translate: 1px 1px;
+    }
+
+    .action-topup {
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/arrow-up.svg");
+    }
+
+    .action-send {
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/arrow-right.svg");
+    }
+
+    .action-add {
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/add.svg");
+    }
+
+    .action-exchange {
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608532/learnhtmlcss/my-bank/exchange.svg");
+    }
+
+    .action-label {
+        font-size: 0.75rem;
+        color: var(--light-text-color);
+        margin-top: 10px;
+        text-align: center;
+    }
+}
