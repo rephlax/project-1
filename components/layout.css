@@ -6,4 +6,8 @@
         border-top-left-radius: 16px;
         padding-top: 10px;
     }
+    .layout-timestamp {
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
 }
