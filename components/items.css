@@ -26,4 +26,16 @@
         font-size: 0.94rem;
         margin: 0;
     }
+    
+    .item-name-contact {
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+
+    .item-name-phone {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--light-text-color);
+        font-size: 0.87rem;
+    }
 }
